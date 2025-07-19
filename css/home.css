@@ -1,0 +1,12 @@
+.root {
+    background-image: url("/assets/deathcorridorteeth.gif");
+    background-size: cover;
+    font-family: 'Albert Sans';
+    color: white;
+}
+
+.root .mainheader {
+    font-size: xxx-large;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 2px;
+}
