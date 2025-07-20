@@ -1,12 +1,141 @@
+/*
+------ MISC
+*/
+
 .root {
-    background-image: url("/assets/deathcorridorteeth.gif");
+    background-image: url("/assets/homeBGLight.png");
     background-size: cover;
     font-family: 'Albert Sans';
     color: white;
 }
 
-.root .mainheader {
-    font-size: xxx-large;
+.root .separator {
+    border: 1px solid black;
+    border-radius: 5px;
+}
+
+/*
+------ WELCOME BAR
+*/
+
+.root .welcome {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.root .welcome .welcomeImg {
+    max-height: 128px;
+    margin-left: 35px;
+}
+
+.root .welcome .welcomeUL {
+    list-style-type: none;
+}
+
+.root .welcome .welcomeUL .mainheader {
+    font-size: 120px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 4px;
+    font-weight: 1000;
+    background: linear-gradient(to top, white, #a0ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+/*
+------ SOCIALS
+*/
+
+.root .socials {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.root .socials .socialBtn {
+    max-width: 60px;
+    transition: all 0.1s;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+.root .socials .socialBtn:hover {
+    transform: scale(1.1);
+}
+
+/*
+------ INFO
+*/
+
+.root .aboutMe {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.root .aboutMe .introduction {
+    font-size: 48px;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
+    font-weight: 1000;
+    background: linear-gradient(to top, white, #a0ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+}
+
+.root .aboutMe .nileImg {
+    padding-left: 8rem;
+    max-height: 300px;
+}
+
+/*
+------ LINKS
+*/
+
+.root .links {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+}
+
+.root .links .btn {
+    background-color: white;
+    border-radius: 10px;
+    border-width: 3px;
+    border: solid;
+    padding: 5px 50px;
+    font-size: x-large;
+    font-family: 'Albert Sans';
+    font-weight: bold;
+    transition: all 0.1s;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.root .links .btn span {
+    position: relative;
+    display: inline-flex;
+    align-items: center;
+}
+
+.root .links .btn:hover {
+    transform: scale(0.95);
+    background-color: #a0ffff;
+}
+
+.root .links .btn .btnImg {
+    max-height: 25px;
+    padding-right: 8px;
 }

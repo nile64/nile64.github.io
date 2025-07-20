@@ -1,0 +1,6 @@
+.root {
+    background-image: url("/assets/homeBGLight.png");
+    background-size: cover;
+    font-family: 'Albert Sans';
+    color: white;
+}
