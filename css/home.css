@@ -2,10 +2,11 @@
 ------ MISC
 */
 
+@import url('https://fonts.googleapis.com/css2?family=Albert+Sans:ital,wght@0,100..900;1,100..900&display=swap');
 .root {
     background-image: url("/assets/homeBGLight.png");
     background-size: cover;
-    font-family: 'Albert Sans';
+    font-family: "Albert Sans", sans-serif;
     color: white;
 }
 
@@ -116,7 +117,7 @@
     border: solid;
     padding: 5px 50px;
     font-size: x-large;
-    font-family: 'Albert Sans';
+    font-family: inherit;
     font-weight: bold;
     transition: all 0.1s;
     box-shadow: rgba(0, 0, 0, 0.3) 0px 0px 10px;
