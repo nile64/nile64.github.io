@@ -1,14 +1,54 @@
 <!DOCTYPE html>
 <html>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <head>
         <title>Nile's GD Stuff</title>
         <link rel="icon" href="/assets/nile.png"/>
         <link rel="stylesheet" type="text/css" href="/css/gdstuff.css" />
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+        <script src="/js/GDGetStats.js"></script>
     </head>
     <body class="root">
-        <h1>gd</h1>
-        <p>will work on this later</p>
-        <br>
-        <a href="..">go back home</a>
+        <div class="info">
+            <ul class="infoUL">
+                <li><img class="gdstuff" src="/assets/GDStuff.png"></li>
+                <li>Everything I do in GD. Not finished yet.</li>
+            </ul>
+        </div>
+        <div class="icons">
+            <img src="/assets/gdIcon.png" class="gdicon">
+            <img src="/assets/gdShip.png" class="gdicon">
+            <img src="/assets/gdBall.png" class="gdicon">
+            <img src="/assets/gdUFO.png" class="gdicon">
+            <img src="/assets/gdWave.png" class="gdicon">
+            <img src="/assets/gdRobot.png" class="gdicon">
+            <img src="/assets/gdSpider.png" class="gdicon">
+            <img src="/assets/gdSwing.png" class="gdicon">
+            <img src="/assets/gdJetpack.png" class="gdicon">
+        </div>
+        <div class="stats">
+            <ul class="statsUL">
+                <li class="stats_header">Stats</li>
+                <li id="statsLoadingText">Loading...</li>
+                <li id="statsErrorText" class="error">Error Loading Stats</li>
+                <li id="profileStats">
+                    <img src="/assets/GDStar.png" class="psIcon">
+                    <span id="psStars">Stars</span>
+                    <img src="/assets/GDMoon.png" class="psIcon">
+                    <span id="psMoons">Moons</span>
+                    <img src="/assets/GDSCoin.png" class="psIcon">
+                    <span id="psSCoins">SecretCoins</span>
+                    <img src="/assets/GDUCoin.png" class="psIcon">
+                    <span id="psUCoins">UserCoins</span>
+                    <img src="/assets/GDDemon.png" class="psIcon">
+                    <span id="psDemons">Demons</span>
+                    <img src="/assets/GDCP.png" class="psIcon">
+                    <span id="psCP">CP</span>
+                </li>
+            </ul>
+        </div>
+        <div class="links">
+            <button class="btn" type="button" onclick="location.href='..'"><span><img class="btnImg" src="/assets/GDback.png">Go Home</span></button>
+        </div>
     </body>
 </html>
