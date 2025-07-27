@@ -1,0 +1,88 @@
+{
+    "ratedExtremes": 7,
+    "unratedExtremes": 2,
+    "totalExtremes": 9,
+    "extremes": [
+        {
+            "name": "Thinking Space",
+            "id": "54953085",
+            "attempts": 34246,
+            "date": "6/7/2025",
+            "video": "https://www.youtube.com/watch?v=vIVOxAwzugs",
+            "hardest": true,
+            "rating": "rate"
+        },
+        {
+            "name": "Black Blizzard",
+            "id": "34057654",
+            "attempts": 22625,
+            "date": "9/17/2024",
+            "video": "https://www.youtube.com/watch?v=b-TYPoZfbRs",
+            "hardest": true,
+            "rating": "feature"
+        },
+        {
+            "name": "Battle of the Shades (phase 3)",
+            "id": "55521950",
+            "attempts": 697,
+            "date": "7/18/2025",
+            "video": "https://www.youtube.com/watch?v=v0SmK_JlE_k",
+            "hardest": false,
+            "rating": "unrated"
+        },
+        {
+            "name": "Bloodbath",
+            "id": "10565740",
+            "attempts": 14621,
+            "date": "5/4/2024",
+            "video": "https://www.youtube.com/watch?v=lSgaO2XqMy0",
+            "hardest": true,
+            "rating": "feature"
+        },
+        {
+            "name": "aftermath",
+            "id": "25610878",
+            "attempts": 926,
+            "date": "6/8/2025",
+            "video": "https://www.youtube.com/watch?v=7MI_i1k-Xmw",
+            "hardest": false,
+            "rating": "rate"
+        },
+        {
+            "name": "Retention",
+            "id": "18697406",
+            "attempts": 4483,
+            "date": "1/8/2025",
+            "video": "https://www.youtube.com/watch?v=AC1R24GwyEo",
+            "hardest": false,
+            "rating": "feature"
+        },
+        {
+            "name": "Bausha V4",
+            "id": "122074782",
+            "attempts": 1511,
+            "date": "6/30/2025",
+            "video": "https://www.youtube.com/watch?v=dtfLe1lOwPw",
+            "hardest": false,
+            "rating": "unrated"
+        },
+        {
+            "name": "Cataclysm",
+            "id": "3979721",
+            "attempts": 5175,
+            "date": "6/24/2025",
+            "video": "https://www.youtube.com/watch?v=pON9d1tCSwU",
+            "hardest": false,
+            "rating": "feature"
+        },
+        {
+            "name": "Acu",
+            "id": "61079355",
+            "attempts": 891,
+            "date": "12/17/2024",
+            "video": "https://www.youtube.com/watch?v=zvej_zwZ9YQ",
+            "hardest": false,
+            "rating": "epic"
+        }
+    ]
+}

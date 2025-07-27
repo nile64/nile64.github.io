@@ -16,36 +16,62 @@
             </ul>
         </div>
         <div class="icons">
-            <img src="/assets/gdIcon.png" class="gdicon">
-            <img src="/assets/gdShip.png" class="gdicon">
-            <img src="/assets/gdBall.png" class="gdicon">
-            <img src="/assets/gdUFO.png" class="gdicon">
-            <img src="/assets/gdWave.png" class="gdicon">
-            <img src="/assets/gdRobot.png" class="gdicon">
-            <img src="/assets/gdSpider.png" class="gdicon">
-            <img src="/assets/gdSwing.png" class="gdicon">
-            <img src="/assets/gdJetpack.png" class="gdicon">
+            <img src="/assets/gdIcon.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdShip.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdBall.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdUFO.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdWave.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdRobot.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdSpider.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdSwing.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
+            <img src="/assets/gdJetpack.png" class="gdicon" onload="this.width*=0.7;this.onload=null;">
         </div>
-        <div class="stats">
-            <ul class="statsUL">
-                <li class="stats_header">Stats</li>
-                <li id="statsLoadingText">Loading...</li>
-                <li id="statsErrorText" class="error">Error Loading Stats</li>
-                <li id="profileStats">
-                    <img src="/assets/GDStar.png" class="psIcon">
-                    <span id="psStars">Stars</span>
-                    <img src="/assets/GDMoon.png" class="psIcon">
-                    <span id="psMoons">Moons</span>
-                    <img src="/assets/GDSCoin.png" class="psIcon">
-                    <span id="psSCoins">SecretCoins</span>
-                    <img src="/assets/GDUCoin.png" class="psIcon">
-                    <span id="psUCoins">UserCoins</span>
-                    <img src="/assets/GDDemon.png" class="psIcon">
-                    <span id="psDemons">Demons</span>
-                    <img src="/assets/GDCP.png" class="psIcon">
-                    <span id="psCP">CP</span>
-                </li>
-            </ul>
+        <div style="overflow: hidden;">
+            <div class="stats">
+                <ul class="statsUL">
+                    <li class="stats_header">GD Stats</li>
+                    <li id="statsLoadingText">Loading...</li>
+                    <li id="statsErrorText" class="error">Error Loading Stats</li>
+                    <li id="profileStats">
+                        <img src="/assets/GDStar.png" class="psIcon" title="Stars">
+                        <span id="psStars">Stars</span>
+                        <img src="/assets/GDMoon.png" class="psIcon" title="Moons">
+                        <span id="psMoons">Moons</span>
+                        <img src="/assets/GDSCoin.png" class="psIcon" title="Secret Coins">
+                        <span id="psSCoins">SecretCoins</span>
+                        <img src="/assets/GDUCoin.png" class="psIcon" title="User Coins">
+                        <span id="psUCoins">UserCoins</span>
+                        <img src="/assets/GDDemon.png" class="psIcon" title="Demons">
+                        <span id="psDemons">Demons</span>
+                        <img src="/assets/GDCP.png" class="psIcon" title="Creator Points">
+                        <span id="psCP">CP</span>
+                    </li>
+                </ul>
+            </div>
+            <div class="demons">
+                <ul class="demonsUL">
+                    <li class="demons_header">My Extreme Demons</li>
+                    <li id="demonStats">
+                        <img src="/assets/RatedExtreme.png" class="psIcon" title="Rated Extreme Demons">
+                        <span id="dRatedExtremes">Rated</span>
+                        <img src="/assets/UnratedExtreme.png" class="psIcon" title="Unrated Extreme Demons">
+                        <span id="dUnratedExtremes">Unrated</span>
+                        <img src="/assets/ExtremeDemon.png" class="psIcon" title="Total Extreme Demons">
+                        <span id="dTotalExtremes">Total</span>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div class="demon_table_holder">
+            <table class="demon_table" id="demonTable">
+                <tr>
+                    <th>Rank</th>
+                    <th>Level</th>
+                    <th>ID</th>
+                    <th>Attempts</th>
+                    <th>Date</th>
+                </tr>
+            </table>
         </div>
         <div class="links">
             <button class="btn" type="button" onclick="location.href='..'"><span><img class="btnImg" src="/assets/GDback.png">Go Home</span></button>

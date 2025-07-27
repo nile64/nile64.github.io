@@ -42,7 +42,7 @@
     align-items: center;
     text-align: center;
     font-weight: bold;
-    background-color: rgb(104, 104, 104);
+    background-color: rgba(67, 53, 99, 0.3);
     border-radius: 40px;
     padding: 1rem;
     margin-left: 5rem;
@@ -52,7 +52,6 @@
 
 .root .icons .gdicon {
     padding: 15px;
-    max-width: 6%;
 }
 
 /*
@@ -71,6 +70,9 @@
     margin-right: 5rem;
     margin-top: 1rem;
     font-size: 36px;
+    width: 45%;
+    float: left;
+    position: absolute;
 }
 
 .root .stats .statsUL {
@@ -90,6 +92,49 @@
 }
 
 .root .stats .psIcon {
+    max-height: 36px;
+    padding-left: 8px;
+    transform: translateY(5px);
+}
+
+/*
+------ DEMONS
+*/
+
+.root .demons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-weight: bold;
+    background-color: rgba(102, 0, 0, 0.3);
+    border-radius: 40px;
+    margin-left: 5rem;
+    margin-right: 5rem;
+    margin-top: 1rem;
+    font-size: 36px;
+    width: 45%;
+    float: right;
+    position: relative;
+}
+
+.root .demons .demonsUL {
+    list-style-type: none;
+}
+
+.root .demons_header {
+    font-size: 56px;
+    -webkit-text-stroke-color: black;
+    -webkit-text-stroke-width: 0px;
+    font-weight: 1000;
+    background: linear-gradient(to top, white, #a0ffff);
+    -webkit-background-clip: text;
+    background-clip: text;
+    color: transparent;
+    text-align: center;
+}
+
+.root .demons .psIcon {
     max-height: 36px;
     padding-left: 8px;
     transform: translateY(5px);
@@ -136,6 +181,60 @@
 .root .links .btn .btnImg {
     max-height: 25px;
     padding-right: 8px;
+}
+
+/*
+------ Demon Table
+*/
+
+.root .demon_table_holder {
+    margin-left: 5rem;
+    margin-right: 5rem;
+}
+
+.root .demon_table {
+    margin-top: 1rem;
+    background-color: rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    padding: 1rem;
+    width: 100%;
+    font-size: 24px;
+}
+
+.root .demon_table .demonLink {
+    color: white;
+    text-decoration: none;
+    padding-left: 55px;
+}
+
+.root .demon_table .demonLink:hover {
+    text-decoration: underline;
+}
+
+.root .demon_table .idLink {
+    color: white;
+    text-decoration: none;
+}
+
+.root .demon_table .idLink:hover {
+    text-decoration: underline;
+}
+
+.root .demon_table .demonLinkHardest {
+    color: white;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px rgb(0, 174, 255);
+    padding-left: 55px;
+}
+
+.root .demon_table .demonLinkHardest:hover {
+    text-decoration: underline;
+}
+
+.root .demon_table .demonDiffFace {
+    max-height: 48px;
+    transform: translateY(-6px);
+    position: absolute;
 }
 
 /*
