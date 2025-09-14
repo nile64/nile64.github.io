@@ -54,11 +54,11 @@ $(document).ready(function(){
 
             if(value.hardest)
             {
-                lvl += '<td style="font-size: 30px; font-weight: 700;">' + rate + '<a class="demonLinkHardest" href="' + value.video + '">' + value.name + '</a></td>';
+                lvl += '<td style="font-size: 30px; font-weight: 700;"><div class="demonBG" style="background-image: url(\'/assets/' + value.name + '.png\');">' + rate + '<a class="demonLinkHardest" href="' + value.video + '">' + value.name + '</a></div></td>';
             }
             else 
             {
-                lvl += '<td style="font-size: 28px; font-weight: 600;">' + rate + '<a class="demonLink" href="' + value.video + '">' + value.name + '</a></td>';
+                lvl += '<td style="font-size: 28px; font-weight: 600;"><div class="demonBG" style="background-image: url(\'/assets/' + value.name + '.png\');">' + rate + '<a class="demonLink" href="' + value.video + '">' + value.name + '</a></div></td>';
             }
             lvl += '<td><a class="idLink" href="https://gdbrowser.com/' + value.id + '">' + value.id + '</td>';
             lvl += '<td>' + value.attempts + '</td>';
