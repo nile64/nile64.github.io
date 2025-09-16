@@ -1,7 +1,7 @@
 {
-    "ratedExtremes": 8,
+    "ratedExtremes": 9,
     "unratedExtremes": 2,
-    "totalExtremes": 10,
+    "totalExtremes": 11,
     "extremes": [
         {
             "name": "Thinking Space",
@@ -11,6 +11,15 @@
             "video": "https://www.youtube.com/watch?v=vIVOxAwzugs",
             "hardest": true,
             "rating": "rate"
+        },
+        {
+            "name": "Bloodlust",
+            "id": "42584142",
+            "attempts": 51915,
+            "date": "9/15/2025",
+            "video": "https://drive.google.com/file/d/1ozBwXYUYNjt7uiVnC6aJeHEUgyyDWbVM/view?usp=sharing",
+            "hardest": false,
+            "rating": "epic"
         },
         {
             "name": "Black Blizzard",
