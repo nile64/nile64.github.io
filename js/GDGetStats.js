@@ -31,7 +31,17 @@ $(document).ready(function(){
         
         $.each(data.extremes, function(i, value) {
             lvl += '<tr class="demonBG">';
-            lvl += '<td>' + (i + 1) + '</td>';
+            lvl += '<td>' + (i + 1);
+            if(i + 1 == 1){
+                lvl += "<img src='/assets/Top1Trophy.png' class='trophy'>"
+            }
+            if(i + 1 == 2){
+                lvl += "<img src='/assets/Top2Trophy.png' class='trophy'>"
+            }
+            if(i + 1 == 3){
+                lvl += "<img src='/assets/Top3Trophy.png' class='trophy'>"
+            }
+            lvl += '</td>'
             var rate = '';
             if(value.rating == "unrated"){
                 rate = '<img src="/assets/UnratedExtremeB.png" class="demonDiffFace">'
