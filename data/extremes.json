@@ -1,7 +1,7 @@
 {
-    "ratedExtremes": 9,
+    "ratedExtremes": 11,
     "unratedExtremes": 2,
-    "totalExtremes": 11,
+    "totalExtremes": 13,
     "extremes": [
         {
             "name": "Thinking Space",
@@ -29,6 +29,24 @@
             "video": "https://www.youtube.com/watch?v=b-TYPoZfbRs",
             "hardest": true,
             "rating": "feature"
+        },
+        {
+            "name": "Athanatos",
+            "id": "26133601",
+            "attempts": 948,
+            "date": "10/10/2025",
+            "video": "https://www.youtube.com/watch?v=3AfjjPfCCGY",
+            "hardest": false,
+            "rating": "feature"
+        },
+        {
+            "name": "Blade of Justice",
+            "id": "35448603",
+            "attempts": 206,
+            "date": "10/11/2025",
+            "video": "https://www.youtube.com/watch?v=wD7Gb_8Zn0I",
+            "hardest": false,
+            "rating": "epic"
         },
         {
             "name": "Battle of the Shades (phase 3)",
@@ -61,7 +79,7 @@
             "name": "Fexty",
             "id": "25449475",
             "attempts": 531,
-            "date": "6/6/2025",
+            "date": "8/6/2025",
             "video": "https://www.youtube.com/watch?v=HfbAGntHMzU",
             "hardest": false,
             "rating": "rate"
