@@ -1,7 +1,7 @@
 {
-    "ratedExtremes": 11,
+    "ratedExtremes": 12,
     "unratedExtremes": 2,
-    "totalExtremes": 13,
+    "totalExtremes": 14,
     "extremes": [
         {
             "name": "Thinking Space",
@@ -101,6 +101,15 @@
             "video": "https://www.youtube.com/watch?v=dtfLe1lOwPw",
             "hardest": false,
             "rating": "unrated"
+        },
+        {
+            "name": "Allegiance",
+            "id": "20761188",
+            "attempts": 398,
+            "date": "10/29/2025",
+            "video": "https://www.youtube.com/watch?v=CftfnsjWIWg",
+            "hardest": false,
+            "rating": "feature"
         },
         {
             "name": "Cataclysm",
